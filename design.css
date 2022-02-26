@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.747),rgb(0, 0, 0)), url('images/1.jpg') ; 
+  background-size: 1400px 500px;
+  background-repeat: no-repeat;
+
+}
+.header{
+  overflow: hidden;
+  background-color:  rgba(0, 0, 0, 0.905);
+  display:flex;
+  position:fixed;
+  top:0;
+  width:100%;
+  
+}
+
+.intro{
+  font-family: 'Lilita One', cursive;
+  padding: 13px 80px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.836);
+  text-align: center;
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  padding:0% 7rem;
+  align-items: center;
+}
+.header nav a{
+  display:flex;
+  padding: 0rem 20%;
+  text-decoration: none ;
+  
+  
+}
+
+.header a{
+  font-family:'Inter', sans-serif;
+  color: rgb(206, 204, 204);
+  transition: color 0.5s ease linear;
+  -o-transition: color 0.5s linear; /* opera */
+  -ms-transition: color 0.5s linear; /* IE 10 */
+  -moz-transition: color 0.5s linear; /* Firefox */
+  -webkit-transition: color 0.5s linear; /*safari and chrome */
+
+}
+
+a:hover{
+  color: rgb(255, 255, 255);
+  
+}
+
+a:active{
+  color: white;
+}
+
+.slog{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 2rem;
+  padding:7rem;
+}
+
+.logos{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 3%;
+  
+}
+.logos img{
+  width: 8rem; 
+}
+.container{
+  padding:3rem;
+}
