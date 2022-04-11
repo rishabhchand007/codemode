@@ -1031,7 +1031,10 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    padding-top:25px;
+    padding-bottom: 25px;
+
 }
 
 .col-xs-1,
@@ -1505,7 +1508,7 @@ pre code {
     }
 
     .col-md-4 {
-        width: 33.33333%
+        width: 33.33333%;
     }
 
     .col-md-5 {
@@ -5288,7 +5291,7 @@ button.close {
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: transparent
 }
 
@@ -6019,7 +6022,8 @@ label {
 .col-md-4 img{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.671);
 }
-.links{
+
+.col-md-4 .links{
     float:right;
     margin-right:10px;
 }
@@ -6027,4 +6031,11 @@ label {
 .ed{
     display:flex;
     justify-content: space-around;
+}
+@media only screen and (max-width:400px) {
+    .col-md-ed{
+        padding:10px;
+        font-size: 13px;;
+    }
+
 }
